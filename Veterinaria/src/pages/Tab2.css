@@ -1,0 +1,68 @@
+ion-content {
+    --background: #f8f9fa;
+    padding: 16px;
+}
+
+.pet-card {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin: 12px 0;
+    background: white;
+}
+
+.pet-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pet-image {
+    flex-shrink: 0;
+}
+
+.pet-image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.pet-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+}
+
+.pet-name {
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+    font-size: 16px;
+}
+
+.pet-type {
+    color: #555;
+    font-size: 15px;
+    margin: 2px 0;
+}
+
+.pet-breed {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.pet-options {
+    --padding-start: 0;
+    --padding-end: 0;
+    --ripple-color: transparent;
+    color: #777;
+    flex-shrink: 0;
+}

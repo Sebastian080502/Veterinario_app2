@@ -1,0 +1,39 @@
+.custom-header {
+  --background: #fff;
+  --border-color: transparent;
+  --min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  box-shadow: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1c1c1e;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-button::part(native) {
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.icono {
+  font-size: 30px;
+
+}
+
+.menu-btn {
+  color: #1c1c1e;
+  font-size: 22px;
+}
+
+ion-toolbar.custom-header {
+  box-shadow: none;
+  border: none;
+}
