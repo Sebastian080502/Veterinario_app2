@@ -82,10 +82,4 @@ La aplicación estará disponible en 👉 `http://localhost:5173/`
 
 ---
 
-## 👨‍💻 Autor
-Desarrollado por **Karina Cantillo** 
-**Juan Jose Torrejano**
-**Juan Andres Cadavid**
-**Sebastian Osorio**
 
-[GitHub](https://github.com/Sebastian080502)
