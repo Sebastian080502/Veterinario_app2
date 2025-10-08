@@ -1,6 +1,0 @@
-{
-  "name": "veterinaria_app",
-  "type": "react",
-  "integrations": { "capacitor": {} },
-  "webDir": "dist"
-}
