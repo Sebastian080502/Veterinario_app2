@@ -1,0 +1,68 @@
+
+:root {
+  --ion-color-primary: #3b82f6;
+  --ion-color-primary-rgb: 59,130,246;
+  --ion-color-secondary: #22c55e;
+  --ion-color-tertiary: #a855f7;
+
+  --page-max-width: 980px;
+  --page-padding: 16px;
+  --radius-xl: 20px;
+
+  --text-muted: rgba(0,0,0,.55);
+  --card-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+
+
+ion-content {
+  --background: #fafafa;
+}
+
+
+.container {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: var(--page-padding);
+}
+
+
+.card {
+  border-radius: var(--radius-xl);
+  box-shadow: var(--card-shadow);
+}
+
+
+ion-searchbar {
+  --border-radius: 14px;
+  --background: #fff;
+}
+
+.empty {
+  opacity: .85;
+}
+.empty h3 {
+  margin-top: 8px;
+  font-weight: 600;
+}
+.empty p {
+  color: var(--text-muted);
+}
+
+.muted { color: var(--text-muted); }
+
+
+.app-tabs {
+
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
+ion-menu-button { color: var(--ion-color-dark) !important; font-size: 22px; }
+ion-menu { --max-width: 290px; }
+
+
