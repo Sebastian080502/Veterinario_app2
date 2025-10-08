@@ -82,6 +82,4 @@ La aplicación estará disponible en 👉 `http://localhost:5173/`
 
 ---
 
-## 👨‍💻 Autor
-Desarrollado por **Sebastian Osorio** ✨  
-[GitHub](https://github.com/Sebastian080502)
+

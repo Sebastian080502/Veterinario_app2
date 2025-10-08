@@ -1,0 +1,44 @@
+.form-content {
+  --background: #f8f9fa;
+  padding: 16px;
+}
+
+ion-item {
+  --background: #fff;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+ion-input,
+ion-select,
+ion-textarea,
+ion-datetime {
+  width: 100%;
+  font-size: 15px;
+}
+
+ion-label {
+  font-weight: 600;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+ion-grid {
+  padding: 0;
+}
+
+ion-col {
+  padding: 0 6px;
+}
+
+.guardar-btn {
+  margin-top: 20px;
+  --background: #2dd36f;
+  --background-hover: #28ba62;
+  font-weight: 600;
+  text-transform: none;
+  border-radius: 12px;
+  height: 48px;
+}
